@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "eslint.alwaysShowStatus": true,
+        "liveServer.settings.port": 5506,
+        "eslint.format.enable": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "[jsonc]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+    }
+}
