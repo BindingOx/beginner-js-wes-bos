@@ -1,4 +1,7 @@
 /* pseudocode:
+
+this is a test
+
 select the elements on the page - canvas, shake button
 setup our canvas for drawing
 write a draw function
