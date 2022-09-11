@@ -141,7 +141,7 @@ function add(a, b = 3) {
 //   function someFunction() {}
 // })();
 
-// this used to be popular before modules and block scope to use iife's to hide variables from global scope
+// NOTE: this used to be popular before modules and block scope to use iife's to hide variables from global scope
 
 // if you want to pass an argument:
 // (function (age) {
