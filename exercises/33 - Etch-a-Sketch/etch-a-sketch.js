@@ -39,15 +39,16 @@ ctx.stroke();
 
 // sometimes your functions will have 6-7 things that need to get passed into it, in this case, use options object as parameter
 function draw(options) {
-    
+    const {key:;} = options
 }
+
 /* ---------------------- write a handler for the keys ---------------------- */
 
 function handleKey(e) {
   // since we only page about the arrow keys
   if (e.key.includes('Arrow')) {
-    console.log('🪓 => handleKey => e.code:', e.code);
-    e.preventDefault(); // prevent scrolling the page using arrow keys
+    // console.log('🪓 => handleKey => e.code:', e.code);
+    e.preventDefault(); // prevent scrolling the page using arrow keys and other keys
     // draw({ key: e.key });
   }
 }
